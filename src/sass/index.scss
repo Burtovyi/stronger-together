@@ -1,2 +1,35 @@
-@import './common';
-@import './example';
+@import './global';
+@import './container';
+@import './header';
+@import './modern-normalize';
+@import './main';
+
+:root {
+  --font-Merriweather-Regular: 'Merriweather-Regular', sans-serif;
+  --font-Merriweather-Light: 'Merriweather-Light', sans-serif;
+  --font-Merriweather-Bold: 'Merriweather-Bold', sans-serif;
+  --black: #343434;
+  --gray: #686868;
+  --white: #e6e6e6;
+}
+
+@font-face {
+  font-family: 'Merriweather-Bold';
+  src: url('../fonts/Merriweather/Merriweather-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather-Light';
+  src: url('../fonts/Merriweather/Merriweather-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather-Regular';
+  src: url('../fonts/Merriweather/Merriweather-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
